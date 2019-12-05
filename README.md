@@ -12,5 +12,6 @@ In the project directory, you can run:
 ### `npm run server`
 
 ## Docker
-docker run -p 8001:8000 --rm --name softdevtech mrdm1try/softdevtech
+### Repository: mrdm1try / softdevtech
+### Run script: docker run -p 8001:8000 --rm --name softdevtech mrdm1try/softdevtech
 
