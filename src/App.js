@@ -19,7 +19,7 @@ class CountriesAndFlags extends React.Component {
     return(
       <div>
         <div>
-          <select id="countries" onChange={this.onCountryChange}>
+          <select data-testid="selector" id="countries" onChange={this.onCountryChange}>
           {
             countries.map(country => 
             <option value={country.split(";")[0]}>
@@ -30,7 +30,7 @@ class CountriesAndFlags extends React.Component {
         </div>
         <b/>
         <div>
-          <img src={getImageUrl(this.state.selectedCountyId)}/>
+          <img data-testid="image" src={getImageUrl(this.state.selectedCountyId)}/>
         </div>
       </div>
     );
